@@ -3,11 +3,9 @@ import Navbar from "../Navbar";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Slide, toast } from "react-toastify";
 import axios from "axios";
-import { Autocomplete, TextField } from "@mui/material";
 
 export default function User() {
   const navigate = useNavigate();
-  const { id } = useParams();
   const [data, setData] = useState([]);
 
   const [module, setModule] = useState();
@@ -18,8 +16,6 @@ export default function User() {
   const [allCount, setAllCount] = useState();
   const [activeCount, setActiveCount] = useState();
   const [inactiveCount, setInactiveCount] = useState();
-
-  const { deletID } = useParams();
 
   useEffect(() => {
     axios
@@ -115,7 +111,7 @@ export default function User() {
                       <li>
                         <a
                           className="btn-filters"
-                          href="javascript:void(0);"
+                          href="#top"
                           data-bs-toggle="tooltip"
                           data-bs-placement="bottom"
                           title="Refresh"
@@ -164,7 +160,7 @@ export default function User() {
                               <li>
                                 <a
                                   className="d-flex align-items-center download-item"
-                                  href="javascript:void(0);"
+                                  href="#top"
                                   download
                                 >
                                   <i className="far fa-file-pdf me-2"></i>Export
@@ -174,7 +170,7 @@ export default function User() {
                               <li>
                                 <a
                                   className="d-flex align-items-center download-item"
-                                  href="javascript:void(0);"
+                                  href="#top"
                                   download
                                 >
                                   <i className="far fa-file-text me-2"></i>
@@ -188,7 +184,7 @@ export default function User() {
                       <li>
                         <a
                           className="btn btn-filters"
-                          href="javascript:void(0);"
+                          href="#top"
                           data-bs-toggle="tooltip"
                           data-bs-placement="bottom"
                           title="Print"
@@ -380,7 +376,7 @@ export default function User() {
                                           <li>
                                             <a
                                               className="dropdown-item"
-                                              href="javascript:void(0);"
+                                              href="#top"
                                               data-bs-toggle="modal"
                                               data-bs-target="#edit_companies"
                                             >
@@ -406,7 +402,7 @@ export default function User() {
                                           <li>
                                             <a
                                               className="dropdown-item"
-                                              href="javascript:void(0);"
+                                              href="#top"
                                             >
                                               <i className="fe fe-shuffle me-2"></i>
                                               Subscription Log

@@ -20,7 +20,7 @@ export default function AddPushNotification() {
   const [imagePreview, setImagePreview] = useState(null);
 
   const [modules, setModules] = useState([]);
-  const [categories, setCategories] = useState([]);
+  //const [categories, setCategories] = useState([]);
   const [subcategories, setSubCategories] = useState([]);
   const [filteredCategories, setFilteredCategories] = useState([]);
 
@@ -38,7 +38,7 @@ export default function AddPushNotification() {
     axios
       .get("http://43.205.22.150:5000/category/getAllCategory")
       .then((res) => {
-        setCategories(res.data);
+       // setCategories(res.data);
       })
       .catch((err) => console.error(err));
   }, []);

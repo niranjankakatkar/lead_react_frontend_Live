@@ -54,7 +54,7 @@ export default function packages() {
                                             className="fe fe-list"></i></span></a>
                             </li>
                             <li>
-                                <a className="btn-filters" href="javascript:void(0);" data-bs-toggle="tooltip"
+                                <a className="btn-filters" href="#top" data-bs-toggle="tooltip"
                                     data-bs-placement="bottom" title="Refresh"><span><i
                                             className="fe fe-refresh-ccw"></i></span></a>
                             </li>
@@ -74,12 +74,12 @@ export default function packages() {
                                         <ul className="d-block">
                                             <li>
                                                 <a className="d-flex align-items-center download-item"
-                                                    href="javascript:void(0);" download><i
+                                                    href="#top" download><i
                                                         className="far fa-file-pdf me-2"></i>Export as PDF</a>
                                             </li>
                                             <li>
                                                 <a className="d-flex align-items-center download-item"
-                                                    href="javascript:void(0);" download><i
+                                                    href="#top" download><i
                                                         className="far fa-file-text me-2"></i>Export as Excel</a>
                                             </li>
                                         </ul>
@@ -87,7 +87,7 @@ export default function packages() {
                                 </div>
                             </li>
                             <li>
-                                <a className="btn btn-filters" href="javascript:void(0);" data-bs-toggle="tooltip"
+                                <a className="btn btn-filters" href="#top" data-bs-toggle="tooltip"
                                     data-bs-placement="bottom" title="Print"><span className="me-2"><i
                                             className="fe fe-printer"></i></span> Print
                                 </a>
@@ -190,9 +190,9 @@ export default function packages() {
                         <li><i className="fa-solid fa-circle-check"></i>1 Invoice</li>
                     </ul>
                     <div className="d-flex justify-content-center package-edit">
-                        <a className="btn-action-icon me-2" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon me-2" href="#top" data-bs-toggle="modal"
                             data-bs-target="#edit_package"><i className="fe fe-edit"></i></a>
-                        <a className="btn-action-icon" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon" href="#top" data-bs-toggle="modal"
                             data-bs-target="#delete_modal"><i className="fe fe-trash-2"></i></a>
                     </div>
                 </div>
@@ -219,9 +219,9 @@ export default function packages() {
                         <li><i className="fa-solid fa-circle-check"></i>10 Invoice</li>
                     </ul>
                     <div className="d-flex justify-content-center package-edit">
-                        <a className="btn-action-icon me-2" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon me-2" href="#top" data-bs-toggle="modal"
                             data-bs-target="#edit_package"><i className="fe fe-edit"></i></a>
-                        <a className="btn-action-icon" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon" href="#top" data-bs-toggle="modal"
                             data-bs-target="#delete_modal"><i className="fe fe-trash-2"></i></a>
                     </div>
                 </div>
@@ -249,9 +249,9 @@ export default function packages() {
                         <li><i className="fa-solid fa-circle-check"></i>1000 Invoice</li>
                     </ul>
                     <div className="d-flex justify-content-center package-edit">
-                        <a className="btn-action-icon me-2" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon me-2" href="#top" data-bs-toggle="modal"
                             data-bs-target="#edit_package"><i className="fe fe-edit"></i></a>
-                        <a className="btn-action-icon" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon" href="#top" data-bs-toggle="modal"
                             data-bs-target="#delete_modal"><i className="fe fe-trash-2"></i></a>
                     </div>
                 </div>
@@ -278,9 +278,9 @@ export default function packages() {
                         <li><i className="fa-solid fa-circle-check"></i>Unlimited Invoice</li>
                     </ul>
                     <div className="d-flex justify-content-center package-edit">
-                        <a className="btn-action-icon me-2" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon me-2" href="#top" data-bs-toggle="modal"
                             data-bs-target="#edit_package"><i className="fe fe-edit"></i></a>
-                        <a className="btn-action-icon" href="javascript:void(0);" data-bs-toggle="modal"
+                        <a className="btn-action-icon" href="#top" data-bs-toggle="modal"
                             data-bs-target="#delete_modal"><i className="fe fe-trash-2"></i></a>
                     </div>
                 </div>
